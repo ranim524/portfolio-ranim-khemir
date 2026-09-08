@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Space Grotesk", "Inter", sans-serif;
+  --font-sans: "Inter", "Space Grotesk", sans-serif;
+
+  --color-ink: #0a0e14;
+  --color-surface: #10151d;
+  --color-surface-2: #161c26;
+  --color-line: #232b38;
+  --color-mist: #8d97a8;
+  --color-paper: #f3f5f8;
+  --color-accent: #2dd4bf;
+  --color-accent-soft: #1a3a37;
+  --color-gold: #d9a441;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: #0a0e14;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* thin accent scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ink);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent);
+}
+
+.section-label {
+  letter-spacing: 0.2em;
+}
+
+.bg-noise {
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.035) 1px, transparent 0);
+  background-size: 28px 28px;
+}
