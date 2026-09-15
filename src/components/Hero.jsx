@@ -18,7 +18,7 @@ export default function Hero() {
         >
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-line bg-surface/60 px-4 py-1.5 text-xs font-medium text-mist">
             <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-            Computer Science Graduate · ISAMM
+            AI Engineering Student · ESPRIT
           </div>
 
           <h1 className="font-display text-4xl font-semibold leading-[1.1] text-paper sm:text-5xl lg:text-6xl">
@@ -74,8 +74,8 @@ export default function Hero() {
             />
           </div>
           <div className="absolute -bottom-6 -left-6 rounded-2xl border border-line bg-surface-2/95 px-5 py-4 shadow-xl backdrop-blur">
-            <p className="font-display text-lg font-semibold text-accent">Full-Stack Developer</p>
-            <p className="text-xs text-mist">Web & Mobile</p>
+            <p className="font-display text-lg font-semibold text-accent">AI Engineering Student</p>
+            <p className="text-xs text-mist">Software & Artificial Intelligence</p>
           </div>
         </motion.div>
       </div>

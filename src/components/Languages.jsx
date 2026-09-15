@@ -39,7 +39,8 @@ export default function Languages() {
           ))}
         </div>
         <p className="mt-6 text-xs text-mist/70">
-          CEFR scale — A1/A2: basic user, B1/B2: independent user, C1/C2: proficient user.
+          CEFR scale (where applicable) — A1/A2: basic user, B1/B2: independent user, C1/C2:
+          proficient user.
         </p>
       </div>
     </section>

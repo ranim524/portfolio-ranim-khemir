@@ -1,10 +1,10 @@
-// All content below is derived strictly from Ranim Khemir's CV (khemir ranim.pdf).
+// All content below is derived strictly from Ranim Khemir's CV (Ranim-Khemir-CV.pdf).
 // No fabricated experience, skills, or achievements have been added.
 
 export const profile = {
   name: "Ranim Khemir",
-  title: "Full-Stack Web & Mobile Developer",
-  tagline: "Computer Science Graduate, ISAMM",
+  title: "Artificial Intelligence Engineering Student",
+  tagline: "AI Engineering Student, ESPRIT · Multimedia CS, ISAMM",
   location: "Korba, Nabeul, Tunisia",
   email: "ranim.khemir6@gmail.com",
   phone: "+216 94 612 006",
@@ -12,27 +12,27 @@ export const profile = {
   linkedinLabel: "linkedin.com/in/ranim-khemir",
   cvFile: "/Ranim-Khemir-CV.pdf",
   intro:
-    "Computer Science graduate from ISAMM with a genuine passion for web, software and mobile development. I build on solid technical foundations from academic and hands-on projects to deliver reliable, thoughtful solutions — and I'm looking to bring that energy to an engineering team.",
+    "Artificial Intelligence engineering student at ESPRIT, holding a Bachelor's degree in Multimedia Computer Science from ISAMM. Passionate about software, web, mobile development and artificial intelligence, with hands-on experience building full-stack platforms and a strong drive to deliver innovative, real-world solutions.",
 };
 
 export const about = {
   paragraphs: [
-    "I'm a Computer Science graduate in Multimedia Computing from ISAMM (Institut Supérieur des Arts Multimédia de La Manouba), with a genuine interest in web, software and mobile development.",
-    "Through academic coursework and hands-on projects — including a full-stack final-year internship building a claims-management platform — I've developed solid foundations in modern frameworks like React and Django, and I'm motivated to put that knowledge to work on innovative, real-world projects.",
-    "I enjoy collaborating within a team, and I bring autonomy, rigor and a strong appetite for learning to everything I build.",
+    "I'm an Artificial Intelligence engineering student at ESPRIT (École Supérieure Privée d'Ingénierie et de Technologies), holding a Bachelor's degree in Multimedia Computer Science from ISAMM (Institut Supérieur des Arts Multimédia de La Manouba).",
+    "Through academic coursework and hands-on projects — including a full-stack final-year internship building a claims-management platform and a healthcare platform with machine-learning features — I've developed solid foundations in modern frameworks like React and Django, and a growing interest in applying AI to real-world problems.",
+    "I enjoy collaborating within a team, and I bring autonomy, rigor and a strong appetite for learning to everything I build. I'm a quick learner, adaptable, and comfortable working across academic and practical environments.",
   ],
   highlights: [
-    { label: "Degree", value: "Licence, Multimedia Computing — ISAMM" },
-    { label: "Focus", value: "Web, Software & Mobile Development" },
+    { label: "Currently", value: "Engineering Cycle in AI — ESPRIT" },
+    { label: "Degree", value: "Bachelor, Multimedia Computer Science — ISAMM" },
     { label: "Based in", value: "Korba, Nabeul, Tunisia" },
-    { label: "Languages", value: "Arabic, English, Turkish, French" },
+    { label: "Languages", value: "Arabic, English, French, Turkish" },
   ],
 };
 
 export const skills = [
   {
     category: "Programming Languages",
-    items: ["Java", "Python", "JavaScript", "PHP", "C"],
+    items: ["Java", "PHP", "C", "Python", "JavaScript"],
   },
   {
     category: "Web Development & APIs",
@@ -48,11 +48,11 @@ export const skills = [
   },
   {
     category: "Databases",
-    items: ["PostgreSQL", "SQLite", "MySQL"],
+    items: ["PostgreSQL", "Oracle Database", "SQLite", "MySQL"],
   },
   {
     category: "Tools & Technologies",
-    items: ["Git & GitHub", "Visual Studio Code", "Eclipse", "Android Studio", "Postman"],
+    items: ["Git & GitHub", "Visual Studio Code", "Eclipse", "Android Studio"],
   },
 ];
 
@@ -60,7 +60,7 @@ export const softSkills = [
   "Creativity & innovative problem-solving",
   "Teamwork & collaboration",
   "Autonomy & initiative",
-  "Active listening & empathy",
+  "Quick learner & adaptable",
 ];
 
 export const projects = [
@@ -74,18 +74,36 @@ export const projects = [
     stack: ["React.js", "Django REST Framework", "SQLite", "Recharts", "Leaflet"],
     features: [
       "REST backend with Django/DRF managing claims, statuses, categories, internal notes and full action history",
-      "Admin / Agent workspace with role-based access and agent assignment by category",
+      "Admin / Agent workspace with role-based access and agent assignment",
       "Interactive dashboard with statistics, advanced filters, charts, urgency tracking, and PDF/Excel export",
       "Interactive map of MAE agencies built with Leaflet for geographic visualization",
-      "Authentication system with login, password change/reset and automated email notifications",
+      "Authentication system with login, password recovery and automated email notifications",
     ],
     tag: "Featured Project",
     links: { github: null, demo: null },
     note: "Internal client project — source not publicly available",
   },
   {
+    id: "healthcare-platform",
+    name: "Intelligent Healthcare Management & Prediction Platform",
+    period: "Sept 2025 – Nov 2025",
+    role: "Full-Stack Developer — Academic Project",
+    description:
+      "An intelligent healthcare platform for patient management, medical appointments and health monitoring, enhanced with machine-learning-driven predictions.",
+    stack: ["React.js", "Django REST Framework", "Python", "PostgreSQL", "Machine Learning"],
+    features: [
+      "Machine Learning module for health-risk prediction and medical-specialty recommendation",
+      "Admin / Agent spaces with role management, agent assignment and profile-based access restrictions",
+      "Secure REST APIs with role-based authentication",
+      "Interactive dashboards for patients, doctors and administrators",
+    ],
+    tag: "Academic Project",
+    links: { github: null, demo: null },
+    note: null,
+  },
+  {
     id: "sales-app",
-    name: "Online Sales Mobile App",
+    name: "Mobile E-commerce Application",
     period: "2025",
     role: "Mobile Developer — Academic Project, ISAMM",
     description:
@@ -105,50 +123,54 @@ export const projects = [
 
 export const experience = [
   {
-    role: "Customer Relations Associate (Seasonal)",
+    role: "Customer Service Representative (Seasonal)",
     org: "Les Villas Africa Jade",
     period: "Jun 2026 – Sept 2026",
     location: "Korba, Nabeul, Tunisia",
     points: [
-      "Managed client relationships by phone and WhatsApp, and across booking platforms including Airbnb, Booking.com, TunRooms and Expedia",
-      "Liaised with villa owners and guided guests through the full reservation process",
-      "Used Excel to track and organize reservations",
-      "Followed up on requests and handled complaints to maintain service quality",
-      "Contributed to improving overall client experience and satisfaction",
+      "Managed customer relations through phone, WhatsApp, and booking platforms including Airbnb, Booking.com, TunRooms and Expedia",
+      "Handled reservations, requests and complaints while providing personalized assistance",
+      "Contributed to improving customer experience and satisfaction",
     ],
   },
   {
-    role: "B2B Event Coordinator (Occasional Mission)",
+    role: "B2B Event Coordinator (Occasional Collaboration)",
     org: "B2B International",
     period: "2024 – Present",
     location: "Tunis, Tunisia",
     points: [
-      "Organized and coordinated professional meetings between Tunisian companies and international partners",
-      "Managed on-site participant reception and logistics",
-      "Supported and guided companies throughout events",
-      "Coordinated with operational teams to ensure smooth execution of activities",
-      "Handled participant requests to maintain satisfaction during international B2B events",
+      "Coordinated professional meetings between Tunisian companies and foreign partners",
+      "Managed participant reception, company assistance and coordination with operational teams",
     ],
   },
   {
     role: "Active Member — Club J2I (Jeunes Ingénieurs)",
     org: "ISAMM, La Manouba",
-    period: "2024 – 2026",
+    period: "2024 – Present",
     location: "La Manouba, Tunisia",
     points: [
-      "Helped organize technology-focused events and initiatives",
-      "Collaborated on team projects related to development and engineering",
-      "Strengthened communication and project-management skills",
+      "Participated in organizing technology-related events",
+      "Collaborated on engineering and development-oriented projects",
+      "Strengthened communication, teamwork, and project management skills",
     ],
   },
 ];
 
 export const education = [
   {
-    degree: "Licence — Multimedia Computing",
+    degree: "Engineering Cycle in Artificial Intelligence",
+    field: "Artificial Intelligence",
+    school: "ESPRIT — École Supérieure Privée d'Ingénierie et de Technologies",
+    period: "2026 – Present",
+    location: "Tunisia",
+    link: null,
+    details: [],
+  },
+  {
+    degree: "Bachelor's Degree — Multimedia Computer Science",
     field: "Computer Science",
     school: "ISAMM — Institut Supérieur des Arts Multimédia de La Manouba",
-    period: "Sept 2023 – Jun 2026",
+    period: "2023 – 2026",
     location: "Manouba, Tunisia",
     link: "https://isa2m.rnu.tn/",
     details: [
@@ -158,11 +180,11 @@ export const education = [
     ],
   },
   {
-    degree: "Baccalauréat — Computer Science",
+    degree: "High School Diploma — Computer Science",
     field: null,
-    school: "Lycée de Korba",
+    school: "Korba High School",
     period: "2019 – 2023",
-    location: "Korba, Nabeul, Tunisia",
+    location: "Korba, Tunisia",
     link: null,
     details: [],
   },
@@ -171,41 +193,23 @@ export const education = [
 export const languages = [
   {
     name: "Arabic",
-    level: "Native speaker",
+    level: "Native",
     cefr: null,
   },
   {
     name: "English",
-    level: "Independent user",
-    cefr: [
-      { skill: "Listening", value: "B2" },
-      { skill: "Reading", value: "B1" },
-      { skill: "Spoken Production", value: "B1" },
-      { skill: "Spoken Interaction", value: "B2" },
-      { skill: "Writing", value: "B2" },
-    ],
-  },
-  {
-    name: "Turkish",
-    level: "Independent user",
-    cefr: [
-      { skill: "Listening", value: "B2" },
-      { skill: "Reading", value: "B1" },
-      { skill: "Spoken Production", value: "B2" },
-      { skill: "Spoken Interaction", value: "B2" },
-      { skill: "Writing", value: "B1" },
-    ],
+    level: "Upper-Intermediate (B2)",
+    cefr: null,
   },
   {
     name: "French",
-    level: "Independent user",
-    cefr: [
-      { skill: "Listening", value: "B1" },
-      { skill: "Reading", value: "B1" },
-      { skill: "Spoken Production", value: "B1" },
-      { skill: "Spoken Interaction", value: "A2" },
-      { skill: "Writing", value: "B1" },
-    ],
+    level: "Intermediate (B2)",
+    cefr: null,
+  },
+  {
+    name: "Turkish",
+    level: "Intermediate (B1)",
+    cefr: null,
   },
 ];
 
